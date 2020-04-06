@@ -1,0 +1,26 @@
+{
+  "name": "ksg73.github.io",
+  "version": "1.0.0",
+  "description": "covid 19 donation links",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allyssapascual/ksg73.github.io.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "html",
+    "css"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allyssapascual/ksg73.github.io/issues"
+  },
+  "homepage": "https://github.com/allyssapascual/ksg73.github.io#readme"
+}
