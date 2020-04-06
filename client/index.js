@@ -2,6 +2,16 @@
 
 const el = {};
 
+async function loadLinks() {
+  const response = await fetch('api/links');
+  let links;
+  if (response.ok) {
+    links = await response.json();
+    console.log(links)
+  } else {
+    links = [{ msg: 'failed to load links' }];
+  }
+}
 
 async function checkInputs() {
   if ((el.inst.value != '') && (el.link.value != '')) {
@@ -54,6 +64,7 @@ function addEventListeners() {
 function pageLoaded() {
   prepareHandles();
   addEventListeners();
+  loadLinks();
 }
 
 window.addEventListener('load', pageLoaded);
