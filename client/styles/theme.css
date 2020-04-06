@@ -14,6 +14,25 @@ iframe {
   border: 0px none transparent;
 }
 
+/* input styling stuff */
+
+input, select {
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  color: #f2994a;
+  border: 2px solid #f2994a;
+  border-radius: 20px;
+  padding: 15px;
+  transition: 0.4s;
+  margin-right: 20px;
+}
+
+input:hover, select:hover {
+  box-shadow: 6px 6px 0px #f2994a;
+  transition: 0.4s;
+}
+
 /* top navbar styling stuff */
 
 button {
@@ -99,7 +118,7 @@ button:hover {
 }
 
 .asia h1 {
-  color: #deba04; 
+  color: #deba04;
 }
 
 .asia:hover {
