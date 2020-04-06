@@ -24,7 +24,7 @@ async function sendLink() {
   };
   console.log('Payload', payload);
 
-  const response = await fetch('link', {
+  const response = await fetch('api/links', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),
